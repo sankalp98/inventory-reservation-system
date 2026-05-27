@@ -1,0 +1,210 @@
+[
+  {
+    "event_id": "e20",
+    "time": 20,
+    "type": "HOLD",
+    "order_id": "order_book",
+    "items": [
+      {
+        "sku": "book",
+        "quantity": 3
+      }
+    ],
+    "ttl": 5
+  },
+  {
+    "event_id": "e1",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "console",
+    "quantity": 5
+  },
+  {
+    "event_id": "e9",
+    "time": 2,
+    "type": "HOLD",
+    "order_id": "order_camera",
+    "items": [
+      {
+        "sku": "camera",
+        "quantity": 2
+      }
+    ],
+    "ttl": 10
+  },
+  {
+    "event_id": "e21",
+    "time": 19,
+    "type": "RESTOCK",
+    "sku": "book",
+    "quantity": 3
+  },
+  {
+    "event_id": "e2",
+    "time": 2,
+    "type": "HOLD",
+    "order_id": "order_expiring",
+    "items": [
+      {
+        "sku": "console",
+        "quantity": 5
+      }
+    ],
+    "ttl": 3
+  },
+  {
+    "event_id": "e8",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "camera",
+    "quantity": 2
+  },
+  {
+    "event_id": "e3",
+    "time": 5,
+    "type": "HOLD",
+    "order_id": "order_after_expiry",
+    "items": [
+      {
+        "sku": "console",
+        "quantity": 5
+      }
+    ],
+    "ttl": 10
+  },
+  {
+    "event_id": "e4",
+    "time": 6,
+    "type": "PURCHASE",
+    "order_id": "order_after_expiry"
+  },
+  {
+    "event_id": "e5",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "shirt",
+    "quantity": 1
+  },
+  {
+    "event_id": "e7",
+    "time": 2,
+    "type": "HOLD",
+    "order_id": "order_multi_item",
+    "items": [
+      {
+        "sku": "shirt",
+        "quantity": 1
+      },
+      {
+        "sku": "pants",
+        "quantity": 1
+      }
+    ],
+    "ttl": 5
+  },
+  {
+    "event_id": "e10",
+    "time": 3,
+    "type": "PURCHASE",
+    "order_id": "order_camera"
+  },
+  {
+    "event_id": "e11",
+    "time": 4,
+    "type": "CANCEL",
+    "order_id": "order_camera"
+  },
+  {
+    "event_id": "e12",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "socks",
+    "quantity": 5
+  },
+  {
+    "event_id": "e12",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "socks",
+    "quantity": 5
+  },
+  {
+    "event_id": "e13",
+    "time": 2,
+    "type": "RESTOCK",
+    "sku": "socks",
+    "quantity": 8
+  },
+  {
+    "event_id": "e13",
+    "time": 3,
+    "type": "RESTOCK",
+    "sku": "socks",
+    "quantity": 9
+  },
+  {
+    "event_id": "e14",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "phone",
+    "quantity": 2
+  },
+  {
+    "event_id": "e15",
+    "time": 2,
+    "type": "HOLD",
+    "order_id": "order_phone",
+    "items": [
+      {
+        "sku": "phone",
+        "quantity": 2
+      }
+    ],
+    "ttl": 3
+  },
+  {
+    "event_id": "e16",
+    "time": 5,
+    "type": "PURCHASE",
+    "order_id": "order_phone"
+  },
+  {
+    "event_id": "bad_negative",
+    "time": 7,
+    "type": "RESTOCK",
+    "sku": "bag",
+    "quantity": -5
+  },
+  {
+    "event_id": "bad_unknown_order",
+    "time": 8,
+    "type": "PURCHASE",
+    "order_id": "missing_order"
+  },
+  {
+    "event_id": "e17",
+    "time": 1,
+    "type": "RESTOCK",
+    "sku": "keyboard",
+    "quantity": 4
+  },
+  {
+    "event_id": "e18",
+    "time": 2,
+    "type": "HOLD",
+    "order_id": "order_keyboard",
+    "items": [
+      {
+        "sku": "keyboard",
+        "quantity": 3
+      }
+    ],
+    "ttl": 10
+  },
+  {
+    "event_id": "e19",
+    "time": 3,
+    "type": "CANCEL",
+    "order_id": "order_keyboard"
+  }
+]
